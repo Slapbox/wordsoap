@@ -18,7 +18,7 @@ var regexes = {
 	// https://regex101.com/r/sD4vJ8
 	conditional: /<!-*\[\w+ [^\]]*]>|<!\[end[^\]]*\]-*>/.source,
 
-	htmlComments: /<!--.*-->/.source,
+	// htmlComments: /<!--.*-->/.source,
 
 	oleLink: /<a\s+name="OLE_LINK\d+">((?:.|[\n])*?)<\/a>/.source,
 
