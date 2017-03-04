@@ -10,7 +10,7 @@ var regexes$15839 = {
     nbsp: /(<[^\s>]*>&nbsp;<\/[^\s>]*>)|&nbsp;/.source,
     // https://regex101.com/r/sD4vJ8
     conditional: /<!-*\[\w+ [^\]]*]>|<!\[end[^\]]*\]-*>/.source,
-    htmlComments: /<!--.*-->/.source,
+    // htmlComments: /<!--.*-->/.source,
     oleLink: /<a\s+name="OLE_LINK\d+">((?:.|[\n])*?)<\/a>/.source,
     emptyTags: /<(?:p|i|b)[^>]*>\s*<\/[^>]+>/.source,
     emptyAttributes: /\s+\w+=["']{2}/.source,
